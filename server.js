@@ -31,7 +31,8 @@ let maxAttempts = 2
 
 bot = new Discord.Client({disabledEvents: ['TYPING_START', 'MESSAGE_DELETE', 'MESSAGE_UPDATE']})
 
-http.createServer(onRequest).listen(process.env.PORT || 6000)
+var port = process.env.PORT || CONFIG.port;
+app.listen(port);
 
 function login (firstStartup) {
   if (!firstStartup) bot = new Discord.Client({disabledEvents: ['TYPING_START', 'MESSAGE_DELETE', 'MESSAGE_UPDATE']})
