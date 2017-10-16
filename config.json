@@ -6,7 +6,7 @@
     "showUnfiltered": true
   },
   "botSettings": {
-    "token": "",
+    "token": "MzY4NzY3MDQ5OTAxNTM5MzMw.DMZbgA.MQ_efcmb1tUe0SEw-WBL0GsSsCg",
     "enableCommands": true,
     "prefix": "~",
     "defaultGame": "",
@@ -23,9 +23,9 @@
     "maxEntryAge": 14
   },
   "feedSettings": {
-    "refreshTimeMinutes": 15,
+    "refreshTimeMinutes": 360,
     "checkTitles": false,
-    "timezone": "America/New_York",
+    "timezone": "Australia/NSW",
     "timeFormat": "ddd, D MMMM YYYY, h:mm A z",
     "dateFallback": false,
     "timeFallback": false,
